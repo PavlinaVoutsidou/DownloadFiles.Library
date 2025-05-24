@@ -1,4 +1,4 @@
-# 📦 DownloadFiles.Library
+# DownloadFiles.Library
 
 A lightweight .NET library for downloading files from external sources, including HTTP endpoints and Azure Blob Storage. 
 It supports configurable retries, timeouts, and robust error handling using Polly.
