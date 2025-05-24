@@ -1,10 +1,14 @@
-# DownloadFiles.Library
+# 📦 DownloadFiles.Library
 
-A simple .NET library for downloading files asynchronously with built-in retry and timeout support.
+A lightweight .NET library for downloading files from external sources, including HTTP endpoints and Azure Blob Storage. 
+It supports configurable retries, timeouts, and robust error handling using Polly.
 
 ## Features
 
-- Async file downloads using `HttpClient`  
-- Automatic retry on transient failures  
-- Configurable timeout for download attempts  
-- Easy to integrate and extend
+- Download files over HTTP
+- Download blobs from Azure Blob Storage
+- Retry logic with exponential backoff using Polly
+- Timeout support for HTTP requests
+- Extensible and testable design
+- Minimal dependencies
+
